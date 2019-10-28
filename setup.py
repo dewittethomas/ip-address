@@ -8,7 +8,7 @@ setuptools.setup(
     author_email="thomasdewittecontact@gmail.com",
 
     name='ip_address',
-    version='1.0.1',
+    version='1.0.2',
     license="MIT",
     url='https://github.com/dewittethomas/ip-address',
     python_requires='>= 2.7',
@@ -25,7 +25,7 @@ setuptools.setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: Microsoft :: Windows',
+        'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.0',
         'Programming Language :: Python :: 3.1',
