@@ -8,7 +8,7 @@ setuptools.setup(
     author_email="thomasdewittecontact@gmail.com",
 
     name='ip_address',
-    version='1.0.2',
+    version='1.0.3',
     license="MIT",
     url='https://github.com/dewittethomas/ip-address',
     python_requires='>= 2.7',

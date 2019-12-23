@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/pypi/v/ip-address.svg)](https://pypi.org/project/ip-address/)
 
-Gets your ip
+A simple tool to get your ip-address.
 
 ## Installation
 To install the package run this command:
