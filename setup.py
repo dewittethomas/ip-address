@@ -8,12 +8,12 @@ setuptools.setup(
     author_email="thomasdewittecontact@gmail.com",
 
     name='ip_address',
-    version='1.0.3',
+    version='1.0.4',
     license="MIT",
     url='https://github.com/dewittethomas/ip-address',
     python_requires='>= 2.7',
     
-    description='Gets your ip',
+    description='A simple tool to get your ip-address',
     long_description=README,
     long_description_content_type="text/markdown",
 
