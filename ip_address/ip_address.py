@@ -1,6 +1,11 @@
 import requests
 
 def get():
-    ip = requests.get("https://ident.me").text
+    try:
+        ip = requests.get("https://ident.me").text
 
-    return ip
+        if ip != "" or ip != None:
+            return ip
+
+    except:
+        pass
