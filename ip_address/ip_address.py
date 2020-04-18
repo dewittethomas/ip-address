@@ -1,11 +1,11 @@
 import requests
+from bs4 import BeautifulSoup
 
 def get():
-    try:
-        ip = requests.get("https://ident.me").text
+    # Requests data from page
+    page = requests.get("https://iplocation.com/")
+    soup = BeautifulSoup(page.content, 'html.parser')
 
-        if ip != "" or ip != None:
-            return ip
+    ip = soup.find("b", {"class": "ip"}).text
 
-    except:
-        pass
+    return ip
