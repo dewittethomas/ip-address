@@ -1,11 +1,8 @@
 import requests
-from bs4 import BeautifulSoup
 
 def get():
     # Requests data from page
-    page = requests.get("https://iplocation.com/")
-    soup = BeautifulSoup(page.content, 'html.parser')
-
-    ip = soup.find("b", {"class": "ip"}).text
+    response = requests.get("https://api.ipify.org/?format=text")
+    ip = response.text
 
     return ip

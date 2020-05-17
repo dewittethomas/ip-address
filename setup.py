@@ -8,7 +8,7 @@ setuptools.setup(
     author_email="thomasdewittecontact@gmail.com",
 
     name='ip_address',
-    version='1.2.2',
+    version='1.3.1',
     license="MIT",
     url='https://github.com/dewittethomas/ip-address',
     python_requires='>= 3.5',
@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
 
     package_dir={"ip_address": "ip_address"},
-    install_requires=["requests>=2.22.0", "beautifulsoup4>=4.8.2"],
+    install_requires=["requests>=2.22.0"],
     
     packages=setuptools.find_packages(),
 
