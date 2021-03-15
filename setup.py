@@ -1,31 +1,32 @@
-import setuptools
+from setuptools import setup, find_packages
 
-with open('README.md') as f:
-    README = f.read()
+with open("README.md", "r") as fh:
+  long_description = fh.read()
 
-setuptools.setup(
-    author="Thomas Dewitte",
-    author_email="thomasdewittecontact@gmail.com",
-
-    name='ip_address',
-    version='1.3.1',
-    license="MIT",
-    url='https://github.com/dewittethomas/ip-address',
-    python_requires='>= 3.5',
+setup(
+    name = "ip_address",
+    version = "1.4.0",
+    license = "MIT",
+    url = "https://github.com/dewittethomas/ip_address",
     
-    description='A simple tool to get your ip-address',
-    long_description=README,
-    long_description_content_type="text/markdown",
+    description = "A tracker that gets your public IP address",
+    long_description = long_description,
+    long_description_content_type = "text/markdown",
 
-    package_dir={"ip_address": "ip_address"},
-    install_requires=["requests>=2.22.0"],
-    
-    packages=setuptools.find_packages(),
+    package_dir = {"ip_address": "ip_address"},
+    install_requires = [
+        "requests>=2.22.0"
+    ],
 
-    classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3'
-    ]
+    packages = find_packages(),
+
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Operating System :: OS Independent",
+        "License :: OSI Approved :: MIT License",
+    ],
+
+    keywords = "ip address ip-address public vpn dns ipv4 ipv6 isp location"
 )

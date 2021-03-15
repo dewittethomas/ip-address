@@ -2,12 +2,13 @@
 
 [![npm](https://img.shields.io/pypi/v/ip-address.svg)](https://pypi.org/project/ip-address/)
 
-A simple tool to get your ip-address.
+This repository gets your public IP address
 
 ## Installation
-To install the package run this command:
 
-```bash
+Run the following to install:
+
+```console
 pip install ip-address
 ```
 
@@ -16,7 +17,16 @@ pip install ip-address
 ### Get
 
 ```python
+get()
+```
+
+Demo:
+
+```python
 import ip_address as ip
 
-ip.get()
+address = ip.get()
 ```
+
+# License
+[MIT](https://github.com/dewittethomas/ip-address/blob/master/LICENSE)
