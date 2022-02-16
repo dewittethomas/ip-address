@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "ip_address",
-    version = "1.4.1",
+    version = "1.4.2",
     author = "Thomas Dewitte",
     author_email = "thomasdewittecontact@gmail.com",
     license = "MIT",
-    url = "https://github.com/dewittethomas/ip_address",
+    url = "https://github.com/dewittethomas/ip-address",
     
     description = "A tracker that gets your public IP address",
     long_description = long_description,
