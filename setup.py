@@ -5,7 +5,9 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "ip_address",
-    version = "1.4.0",
+    version = "1.4.1",
+    author = "Thomas Dewitte",
+    author_email = "thomasdewittecontact@gmail.com",
     license = "MIT",
     url = "https://github.com/dewittethomas/ip_address",
     
