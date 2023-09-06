@@ -2,7 +2,6 @@ import requests
 
 def get():
     req = requests.get("https://api.ipify.org/?format=text")
-    
-    ip = req.text
+    res = req.text
 
-    return ip
+    return res
